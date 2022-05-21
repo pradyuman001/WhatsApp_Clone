@@ -13,6 +13,7 @@ class Home_Screen : AppCompatActivity() {
     lateinit var tab_layout: TabLayout
     lateinit var view_pager: ViewPager
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.home_screen)
