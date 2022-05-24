@@ -30,7 +30,7 @@ class Chat_Adapter(
         holder.chatitem.text = data[position]
         holder.messageitem.text = message[position]
         holder.timeitem.text = time[position]
-        holder.profileitem.imageAlpha = profile[position]
+        holder.profileitem.setImageResource(profile[position])
 
     }
 

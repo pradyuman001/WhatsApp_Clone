@@ -32,8 +32,7 @@ class Call_Adapter(
     override fun onBindViewHolder(holder: ViewData, position: Int) {
         holder.chatitem.text = chat[position]
         holder.timeitem.text = time[position]
-        holder.profileitem.imageAlpha = profile[position]
-
+        holder.profileitem.setImageResource(profile[position])
     }
 
     override fun getItemCount(): Int {
